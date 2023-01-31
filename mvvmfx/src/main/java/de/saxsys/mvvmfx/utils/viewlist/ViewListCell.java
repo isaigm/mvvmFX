@@ -51,6 +51,7 @@ public abstract class ViewListCell<T> extends ListCell<T> implements
 				setGraphic(view);
 			}
 		}
+		setText(null);
 	}
 	
 }
